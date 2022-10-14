@@ -65,8 +65,8 @@ try:
         print (" "+lgreen+bold)
 
 except KeyboardInterrupt:
-        print ('Terminating, Bye'+lgreen)
+        print ('Terminating Bye'+lgreen)
         sys.exit(0)
 except requests.exceptions.ConnectionError as e:
-        print (red+"[~]"+" check your internet connection!"+clear)
+        print (red+"[~]"+"Check Your Connection!"+clear)
 sys.exit(1)
